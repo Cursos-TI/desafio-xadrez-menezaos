@@ -22,9 +22,20 @@ int main() {
     printf("--- Movimento da Rainha ---\n");
     int contador_rainha = 0;
     do {
-        printf("Direita\n");
+        printf("Esquerda\n");
         contador_rainha++;
     } while (contador_rainha < movimentos_rainha);
+    printf("\n");
+
+    printf("--- Movimento do Cavalo ---\n");
+    int contador_cavalo = 0;
+    while (contador_cavalo < 1) {
+        for (int i = 0; i < 2; i++) {
+            printf("  - Cima\n");
+        }
+        printf("  - Direita\n");
+        contador_cavalo++;
+    }
     printf("\n");
 
     return 0;
